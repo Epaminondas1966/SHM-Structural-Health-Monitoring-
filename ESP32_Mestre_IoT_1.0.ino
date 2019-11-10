@@ -47,16 +47,16 @@ SOFTWARE.
 
 
 /********************** codigo projeto Blynk *******************************/
-char auth[] = "N5p3rGE2pIdKXYGECjbaRoxxiiNUfGM2";
+char auth[] = "your code must be put here";
 
 /********************** Configurações do Display OLED SPI *******************************/
 SSD1306Spi display(27, 4, 5);  // RES, DC, CS
 
 /********************** Configurações do WiFi *******************************/
-//const char* ssid     = "Gemini"; // Nome da rede WiFi
-//const char* password = "6654F07D"; // Senha da rede WiFi
-const char* ssid     = "walle"; // Nome da rede WiFi
-const char* password = "marrequinha"; // Senha da rede WiFi
+//const char* ssid     = ""; // Nome da rede WiFi
+//const char* password = ""; // Senha da rede WiFi
+const char* ssid     = "your wifi name"; // Nome da rede WiFi
+const char* password = "your password"; // Senha da rede WiFi
 
 String req;//String que armazena os dados recebidos pela rede.
 char* req1;
